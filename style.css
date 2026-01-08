@@ -13,7 +13,7 @@ body {
 }
 
 /* common css start */
-header,
+nav,
 .hero-container,
 main {
     width: 85%;
@@ -122,12 +122,14 @@ main {
     background: #FFF;
     margin-bottom: 16px;
     border: 1px solid #30B868;
+    cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .early-btn button:hover {
     color: #FFF;
     background: #30B868;
+    border: 1px solid #FFF;
 }
 
 .hero-content h1 {
@@ -234,6 +236,7 @@ main {
 .check-list p i {
     color: #30B868;
     font-size: 20px;
+    margin-right: 6px;
 }
 
 /* second-brain css end */
