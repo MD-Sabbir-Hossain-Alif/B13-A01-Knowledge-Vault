@@ -15,7 +15,8 @@ body {
 /* common css start */
 nav,
 .hero-container,
-main {
+main,
+.footer-container {
     width: 85%;
     max-width: 1600px;
     margin: 0 auto;
@@ -279,16 +280,45 @@ main {
 
 /* early-access css end */
 
-
-
-
-
-
-
-
-
-
-
-
 /* footer css start */
+footer {
+    background: rgba(0, 25, 49, 1);
+    padding: 120px 0 30px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.social-box h4,
+.social-box a {
+    width: 220px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.social-box h4 {
+    margin-bottom: 16px;
+}
+
+.social-icons a {
+    margin-right: 16px;
+}
+
+.copyright p {
+    color: #fafafa;
+    text-align: center;
+}
+
+.copyright hr {
+    border: 1px solid #E5E7EB;
+    opacity: 0.2;
+    margin-bottom: 30px;
+}
+
 /* footer css end */
