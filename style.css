@@ -1,0 +1,197 @@
+/* google font Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: rgba(255, 255, 255, 1);
+}
+
+/* common css start */
+header,
+.hero-container,
+main {
+    width: 85%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.btn {
+    color: #FFF;
+    background: #30B868;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 16px;
+    border: 1px solid #30B868;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-white {
+    border: 1px solid #FFF;
+    background: transparent;
+    margin-left: 16px;
+}
+
+.btn:hover {
+    color: #30B868;
+    background: #FFF;
+}
+
+.btn:hover {
+    border: 1px solid #30B868;
+}
+
+.heading {
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.text {
+    color: #627382;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+/* common css end */
+
+/* header css start */
+
+#nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.nav-items ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 32px;
+}
+
+/* i didn't use font size 16px because 16px is default font size */
+.nav-items ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 152%;
+}
+
+/* banner css start */
+#hero {
+    background: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-content {
+    text-align: center;
+    padding: 180px 0;
+}
+
+.early-btn button {
+    color: #30B868;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 50px;
+    background: #FFF;
+    margin-bottom: 16px;
+}
+
+.hero-content h1 {
+    font-size: 72px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.hero-content h1 span {
+    color: #30B868;
+}
+
+.hero-content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFF;
+    margin-bottom: 32px;
+}
+
+/* banner css end */
+/* header css end */
+
+/* notes css start */
+.notes-container {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.notes-content h1 {
+    margin-bottom: 16px;
+}
+
+.note-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-top: 44px;
+}
+
+.note-cards .card {
+    width: auto;
+    height: 300px;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-direction: column;
+}
+/* notes css end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* common css start */
+/* common css end */
+/* common css start */
+/* common css end */
+/* common css start */
+/* common css end */
+/* common css start */
+/* common css end */
