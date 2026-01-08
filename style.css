@@ -33,10 +33,19 @@ main {
     transition: all 0.3s ease;
 }
 
+.btn i {
+    margin-left: 10px;
+}
+
 .btn-white {
     border: 1px solid #FFF;
     background: transparent;
     margin-left: 16px;
+}
+
+.btn-white i {
+    margin-left: 0;
+    margin-right: 10px;
 }
 
 .btn:hover {
@@ -87,6 +96,10 @@ main {
     line-height: 152%;
 }
 
+.nav-items ul li a:hover {
+    color: #30B868;
+}
+
 /* banner css start */
 #hero {
     background: url(./assets/hero-bg.png);
@@ -108,6 +121,13 @@ main {
     border-radius: 50px;
     background: #FFF;
     margin-bottom: 16px;
+    border: 1px solid #30B868;
+    transition: all 0.3s ease;
+}
+
+.early-btn button:hover {
+    color: #FFF;
+    background: #30B868;
 }
 
 .hero-content h1 {
@@ -186,17 +206,41 @@ main {
     gap: 62px;
 }
 
-.brain-content .content{
+.brain-content .content {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
+.content h4 {
+    color: #30B868;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+
 .brain-content .check-list {
     margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
+
+.check-list p {
+    font-weight: 500;
+    color: rgba(0, 25, 49, 1);
+}
+
+.check-list p i {
+    color: #30B868;
+    font-size: 20px;
+}
+
 /* second-brain css end */
 
+/* early-access css start */
+
+/* early-access css end */
 
 
 
@@ -209,18 +253,5 @@ main {
 
 
 
-
-
-
-
-
-
-
-
-
-/* common css start */
-/* common css end */
-/* common css start */
-/* common css end */
-/* common css start */
-/* common css end */
+/* footer css start */
+/* footer css end */
