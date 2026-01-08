@@ -180,7 +180,8 @@ main,
     height: 300px;
     padding: 24px;
     border-radius: 8px;
-    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.6);
+    /* here i change card alpha value 0.06 to 0.6 for better shadow */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,7 +191,8 @@ main,
 
 .card .card-img {
     background: rgba(249, 85, 85, 1);
-    padding: 14px;
+    padding: 14px 16px;
+    /* here i use 16px padding for more good look */
     border-radius: 50px;
 }
 
@@ -293,13 +295,26 @@ footer {
     margin-bottom: 80px;
 }
 
-.social-box h4,
-.social-box a {
+.social-box {
     width: 220px;
+}
+
+.social-box h4,
+.social-box a i {
     color: #FFF;
     font-size: 20px;
     font-weight: 500;
     line-height: 28px;
+}
+
+.social-box a i {
+    transition: all 0.3s ease;
+}
+
+/* social icons hover animation */
+.social-box a i:hover {
+    color: #30B868;
+    transform: scale(1.6);
 }
 
 .social-box h4 {
