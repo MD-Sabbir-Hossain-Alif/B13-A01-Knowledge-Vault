@@ -163,8 +163,39 @@ main {
     gap: 16px;
     flex-direction: column;
 }
+
+.card .card-img {
+    background: rgba(249, 85, 85, 1);
+    padding: 14px;
+    border-radius: 50px;
+}
+
+.card .card-img img {
+    height: 32px;
+    width: 32px;
+}
+
 /* notes css end */
 
+/* second-brain css start */
+.brain-container {
+    margin: 120px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 62px;
+}
+
+.brain-content .content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.brain-content .check-list {
+    margin-top: 40px;
+}
+/* second-brain css end */
 
 
 
@@ -187,8 +218,6 @@ main {
 
 
 
-/* common css start */
-/* common css end */
 /* common css start */
 /* common css end */
 /* common css start */
